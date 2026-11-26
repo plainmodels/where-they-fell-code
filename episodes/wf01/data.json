@@ -1,0 +1,356 @@
+{
+ "revenue": [
+  {
+   "fy": "FY2006",
+   "end": "2006-03-04",
+   "v": 2066.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2007",
+   "end": "2007-03-03",
+   "v": 3037.1,
+   "cont": false
+  },
+  {
+   "fy": "FY2008",
+   "end": "2008-03-01",
+   "v": 6009.4,
+   "cont": false
+  },
+  {
+   "fy": "FY2009",
+   "end": "2009-02-28",
+   "v": 11065.2,
+   "cont": false
+  },
+  {
+   "fy": "FY2010",
+   "end": "2010-02-27",
+   "v": 14953.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2011",
+   "end": "2011-02-26",
+   "v": 19907.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2012",
+   "end": "2012-03-03",
+   "v": 18435.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2013",
+   "end": "2013-03-02",
+   "v": 11073.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2014",
+   "end": "2014-03-01",
+   "v": 6813.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2015",
+   "end": "2015-02-28",
+   "v": 3335.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2016",
+   "end": "2016-02-29",
+   "v": 2160.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2017",
+   "end": "2017-02-28",
+   "v": 1309.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2018",
+   "end": "2018-02-28",
+   "v": 932.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2019",
+   "end": "2019-02-28",
+   "v": 904.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2020",
+   "end": "2020-02-29",
+   "v": 1040.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2021",
+   "end": "2021-02-28",
+   "v": 893.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2022",
+   "end": "2022-02-28",
+   "v": 718.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2023",
+   "end": "2023-02-28",
+   "v": 656.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2024",
+   "end": "2024-02-29",
+   "v": 853.0,
+   "cont": false
+  },
+  {
+   "fy": "FY2025",
+   "end": "2025-02-28",
+   "v": 534.9,
+   "cont": true
+  },
+  {
+   "fy": "FY2026",
+   "end": "2026-02-28",
+   "v": 549.1,
+   "cont": true
+  }
+ ],
+ "devices": [
+  {
+   "fy": "FY2006",
+   "v": 4.0,
+   "recognised": false
+  },
+  {
+   "fy": "FY2007",
+   "v": 6.414,
+   "recognised": false
+  },
+  {
+   "fy": "FY2008",
+   "v": 13.78,
+   "recognised": false
+  },
+  {
+   "fy": "FY2009",
+   "v": 26.009,
+   "recognised": false
+  },
+  {
+   "fy": "FY2010",
+   "v": 36.7,
+   "recognised": false
+  },
+  {
+   "fy": "FY2011",
+   "v": 52.3,
+   "recognised": false
+  },
+  {
+   "fy": "FY2012",
+   "v": 49.0,
+   "recognised": false
+  },
+  {
+   "fy": "FY2013",
+   "v": 28.1,
+   "recognised": false
+  },
+  {
+   "fy": "FY2014",
+   "v": 13.7,
+   "recognised": true
+  }
+ ],
+ "subscribers": [
+  {
+   "fy": "FY2007",
+   "v": 8.0,
+   "over": false
+  },
+  {
+   "fy": "FY2008",
+   "v": 14.0,
+   "over": true
+  },
+  {
+   "fy": "FY2009",
+   "v": 25.0,
+   "over": false
+  },
+  {
+   "fy": "FY2010",
+   "v": 41.0,
+   "over": true
+  },
+  {
+   "fy": "FY2012",
+   "v": 77.0,
+   "over": false
+  },
+  {
+   "fy": "FY2013",
+   "v": 76.0,
+   "over": false
+  }
+ ],
+ "share": [
+  {
+   "period": "CY2008",
+   "x": 2008.5,
+   "v": 16.6,
+   "quarter": false
+  },
+  {
+   "period": "CY2009",
+   "x": 2009.5,
+   "v": 19.9,
+   "quarter": false
+  },
+  {
+   "period": "CY2010",
+   "x": 2010.5,
+   "v": 16.0,
+   "quarter": false
+  },
+  {
+   "period": "Q4 2011",
+   "x": 2011.875,
+   "v": 8.8,
+   "quarter": true
+  },
+  {
+   "period": "CY2012",
+   "x": 2012.5,
+   "v": 5.0,
+   "quarter": false
+  },
+  {
+   "period": "CY2013",
+   "x": 2013.5,
+   "v": 1.9,
+   "quarter": false
+  },
+  {
+   "period": "Q4 2016",
+   "x": 2016.875,
+   "v": 0.048,
+   "quarter": true
+  }
+ ],
+ "market_value": {
+  "peak": {
+   "date": "2008-06-19",
+   "v": 83.4,
+   "note": "COMPUTED: close $147.55 x 565.1M weighted-average basic shares FY2009 (566.4M outstanding 2009-03-31). Secondary sources say $83-84 billion"
+  },
+  "co-CEOs step down": {
+   "date": "2012-01-20",
+   "v": 8.9,
+   "note": "COMPUTED: last close before 2012-01-22 announcement $17.00 x 524.16M shares (as at 2012-03-03)"
+  },
+  "Fairfax offer": {
+   "date": "2013-09-23",
+   "v": 4.7,
+   "note": "Offer value stated by company: $9 per share, approximately $4.7 billion"
+  },
+  "all-time low": {
+   "date": "2024-08-07",
+   "v": 1.245,
+   "note": "COMPUTED: close $2.11 x 590.17M shares = $1.245bn (10-Q cover 2024-06-24)"
+  },
+  "latest": {
+   "date": "2026-11-17",
+   "v": 4.79,
+   "note": "RE-CHECK ON PUBLISH DAY. COMPUTED: close $8.16 on 2026-11-17 (price taken 2026-11-17) x 587.03M shares (10-Q cover 2026-09-21)"
+  }
+ },
+ "facts": {
+  "android_share": {
+   "CY2009": 3.9,
+   "CY2010": 22.7
+  },
+  "units_cy2010_m": 47.5,
+  "q4_2016": {
+   "total_m": 432,
+   "bb_units": 207900
+  },
+  "fy2026_split": {
+   "QNX": 268.0,
+   "Secure Communications": 258.9,
+   "Licensing": 22.2
+  },
+  "fy2026_qnx_growth_pct": 14,
+  "fy2026_income_cont_m": 53.2,
+  "q2fy27": {
+   "rev_m": 163.3,
+   "growth_pct": 26
+  },
+  "staff": {
+   "FY2011": 17500,
+   "FY2026": 1749
+  },
+  "vehicles_m": 275,
+  "carmakers": 45,
+  "apps": {
+   "BlackBerry 10 (Mar 2013)": 100000,
+   "Apple App Store (Jan 2013)": 775000
+  },
+  "playbook": {
+   "provision_m": 485,
+   "sold_q": 150000
+  },
+  "outage": {
+   "customers_m": 70,
+   "charge_m": 50
+  },
+  "sep2013": {
+   "loss_m": [
+    950,
+    995
+   ],
+   "inventory_m": [
+    930,
+    960
+   ],
+   "jobs": 4500
+  },
+  "fy2014": {
+   "charges_bn": 2.4,
+   "net_loss_bn": 5.9
+  },
+  "fy2011": {
+   "net_income_bn": 3.4
+  },
+  "fairfax": {
+   "per_share": 9,
+   "stake_pct": 10,
+   "debentures_bn": 1
+  },
+  "cylance": {
+   "bought_bn": 1.4,
+   "sold_cash_m": 160
+  },
+  "alloy_kore_backlog_m": 100,
+  "iphone_price": 499,
+  "appstore_launch_apps": 500
+ },
+ "derived": {
+  "drop_pct": 98.5,
+  "fy26_vs_peak_pct": 2.8,
+  "q4_2016_share_pct": 0.048,
+  "qnx_share_fy26_pct": 48.8
+ }
+}

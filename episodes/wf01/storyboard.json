@@ -1,0 +1,1172 @@
+{
+ "episode": "wf01",
+ "title": "BlackBerry: How an $83 Billion Phone Giant Lost 98%",
+ "case": "CASE 01 · BLACKBERRY",
+ "voice": "am_puck",
+ "lang": "en-us",
+ "speed": 1.1,
+ "gap": 0.5,
+ "tail": 11,
+ "beats": [
+  {
+   "id": "b01",
+   "chapter": "",
+   "scene": "coldopen",
+   "p": {},
+   "yr": 2026,
+   "text": "You probably never owned a BlackBerry. But the company that lost 98 percent of its 83 billion dollar value may be inside your car. How?",
+   "visual": "dark screen; a generic keyboard phone silhouette (no logo) cracks and fades; a car dashboard glows behind it",
+   "sfx": [
+    [
+     0.3,
+     "hit"
+    ]
+   ]
+  },
+  {
+   "id": "b02",
+   "chapter": "",
+   "scene": "valuebars",
+   "p": {
+    "bars": [
+     {
+      "k": "peak",
+      "label": "June 2008",
+      "sub": "peak close"
+     },
+     {
+      "k": "all-time low",
+      "label": "August 2024",
+      "sub": "lowest close"
+     }
+    ],
+    "ats": [
+     0.0,
+     0.43
+    ]
+   },
+   "yr": 2008,
+   "text": "In June 2008, the company behind the BlackBerry was worth about 83 billion dollars on the stock market. In August 2024, at its lowest, about 1.2 billion. Those are our own estimates, share price times shares, and the sources are linked below.",
+   "visual": "two bars from data.csv market_value: 83.4 (2008-06-19) vs 1.25 (2024-08-07); label 'share price x shares outstanding'",
+   "say": "In June 2008, the company behind the BlackBerry was worth about 83 billion dollars on the stock market. In August 2024, at its lowest, about one point two billion. Those are our own estimates, share price times shares, and the sources are linked below."
+  },
+  {
+   "id": "b03",
+   "chapter": "",
+   "scene": "title",
+   "p": {
+    "kicker": "CASE 01",
+    "title": [
+     "BlackBerry: how an $83 billion",
+     "phone giant lost 98%"
+    ],
+    "sub": "and what the company is now",
+    "counter": {
+     "to": 275000000,
+     "label": "vehicles with its QNX software"
+    }
+   },
+   "yr": 2026,
+   "text": "And yet the company is still here. It makes a profit, and its software runs in more than 275 million vehicles. So how did the company that put email in millions of pockets end up with a market share that rounds to zero? And what is it now?",
+   "visual": "title card; small counter '275,000,000+ vehicles'",
+   "gap": 0.8
+  },
+  {
+   "id": "b04",
+   "chapter": "In this video",
+   "scene": "bullets",
+   "p": {
+    "head": "A chain of decisions",
+    "items": [
+     "Why BlackBerry won",
+     "How it answered the iPhone",
+     "The tablet, the outage and the late new phone",
+     "The exit from phones",
+     "The business that is left"
+    ]
+   },
+   "yr": 2026,
+   "text": "We will take it as a chain of decisions. Why BlackBerry won. How it answered the iPhone. The tablet, the outage and the late new phone. The exit from phones. And the business that is left. All along, we will show you the company's own numbers, year by year, taken from its annual filings.",
+   "visual": "five bullets; a thumbnail of the revenue chart sits in the corner"
+  },
+  {
+   "id": "b05",
+   "chapter": "1 · The machine that pushed email",
+   "scene": "timeline",
+   "p": {
+    "events": [
+     {
+      "d": "1984",
+      "t": "Research In Motion founded",
+      "s": "Mike Lazaridis, Douglas Fregin"
+     },
+     {
+      "d": "INVESTOR",
+      "t": "Jim Balsillie joins",
+      "s": "as co-chief executive"
+     },
+     {
+      "d": "JAN 1999",
+      "t": "BlackBerry email service",
+      "s": "North America"
+     },
+     {
+      "d": "1999",
+      "t": "first device: an email pager",
+      "s": "sends and receives email",
+      "icon": "kb"
+     }
+    ],
+    "hl": [
+     2
+    ],
+    "ats": [
+     0.154,
+     0.383,
+     0.572,
+     0.81
+    ],
+    "src": "The Canadian Encyclopedia; RIM annual reports (40-F)"
+   },
+   "yr": 1984,
+   "text": "The company was called Research In Motion, or RIM. Mike Lazaridis and Douglas Fregin started it in Waterloo, Ontario, in 1984. Jim Balsillie invested in it and joined as co-chief executive. In January 1999, RIM introduced the BlackBerry email service in North America. The first device was a pager that could send and receive email.",
+   "visual": "1984 Waterloo, Balsillie joins, 1999 email pager; plain icon shapes, no photos of people",
+   "say": "The company was called Research In Motion, or RIM. Mike Lazza-reedis and Douglas Free-gin started it in Waterloo, Ontario, in nineteen eighty-four. Jim Bal-silly invested in it and joined as co-chief executive. In January nineteen ninety-nine, RIM introduced the BlackBerry email service in North America. The first device was a pager that could send and receive email."
+  },
+  {
+   "id": "b06",
+   "chapter": "1 · The machine that pushed email",
+   "scene": "pushpull",
+   "p": {},
+   "yr": 1999,
+   "text": "To see why that mattered, you need to know how email reached a handheld device back then. Many devices had to ask: is there new mail? Check, wait, check again. BlackBerry turned that around. RIM called its system push-based: the device stayed connected to the network, and when an email arrived at the office, it was sent straight to the device.",
+   "visual": "left panel 'pull' (device polls server, clock ticking); right panel 'push' (server sends instantly)"
+  },
+  {
+   "id": "b07",
+   "chapter": "1 · The machine that pushed email",
+   "scene": "network",
+   "p": {
+    "mode": "normal"
+   },
+   "yr": 1999,
+   "text": "Here is the clever part. A company ran RIM's software on its own mail system, the BlackBerry Enterprise Server. That server made one connection outward, through the company's firewall, to RIM's network operations centre, the NOC. The NOC handed each message to the right mobile carrier, and the carrier delivered it to the phone. No door had to be opened in the firewall from the outside. For corporate IT departments, that was a big deal.",
+   "visual": "animated diagram: office mail server -> enterprise server -> firewall (arrow goes OUT only) -> NOC hub -> carrier towers -> handsets",
+   "say": "Here is the clever part. A company ran RIM's software on its own mail system, the BlackBerry Enterprise Server. That server made one connection outward, through the company's firewall, to RIM's network operations centre, the N O C. The N O C handed each message to the right mobile carrier, and the carrier delivered it to the phone. No door had to be opened in the firewall from the outside. For corporate IT departments, that was a big deal."
+  },
+  {
+   "id": "b08",
+   "chapter": "1 · The machine that pushed email",
+   "scene": "network",
+   "p": {
+    "mode": "compress"
+   },
+   "yr": 2009,
+   "text": "The NOC also compressed the data, which mattered when mobile networks were slow and data was expensive. RIM's own filings list the benefits as reliable delivery, efficient use of the network, and security, with the data encrypted from end to end.",
+   "visual": "a message packet shrinks as it passes through the NOC; lock icon on the whole path; label 'RIM 40-F FY2009'",
+   "say": "The N O C also compressed the data, which mattered when mobile networks were slow and data was expensive. RIM's own filings list the benefits as reliable delivery, efficient use of the network, and security, with the data encrypted from end to end."
+  },
+  {
+   "id": "b09",
+   "chapter": "1 · The machine that pushed email",
+   "scene": "flow",
+   "p": {
+    "mode": "three"
+   },
+   "yr": 2005,
+   "text": "Then the business model. For every BlackBerry user, RIM charged the carrier a monthly service fee, and the carrier folded it into the customer's data plan. RIM argued its network was so efficient that carriers could price BlackBerry plans the same as other data plans, or lower. So RIM earned money three ways: on the device, on the server software, and every month on the service.",
+   "visual": "three money streams into RIM: device, software, monthly service fee (carrier in the middle)"
+  },
+  {
+   "id": "b10",
+   "chapter": "1 · The machine that pushed email",
+   "scene": "keyboard",
+   "p": {},
+   "yr": 2005,
+   "text": "And then the keyboard. A full set of small physical keys, typed with two thumbs, which made it practical to write real emails on a handheld. In 2005 came BlackBerry Messenger, BBM: instant messages between BlackBerry users, addressed by a PIN code instead of a phone number. It started with business. Then it spread to everyone else.",
+   "visual": "generic thumb keyboard close-up (not a real product); BBM-style chat bubbles with an 8-character PIN",
+   "say": "And then the keyboard. A full set of small physical keys, typed with two thumbs, which made it practical to write real emails on a handheld. In 2005 came BlackBerry Messenger, B B M: instant messages between BlackBerry users, addressed by a PIN code instead of a phone number. It started with business. Then it spread to everyone else."
+  },
+  {
+   "id": "b11",
+   "chapter": "1 · The machine that pushed email",
+   "scene": "vbars",
+   "p": {
+    "head": "Subscriber accounts at the end of each fiscal year",
+    "max": 45,
+    "rows": [
+     {
+      "label": "to Mar 2007",
+      "v": 8.0,
+      "txt": "~8m",
+      "hl": false
+     },
+     {
+      "label": "to Mar 2008",
+      "v": 14.0,
+      "txt": "over 14m",
+      "hl": false
+     },
+     {
+      "label": "to Feb 2009",
+      "v": 25.0,
+      "txt": "~25m",
+      "hl": false
+     },
+     {
+      "label": "to Feb 2010",
+      "v": 41.0,
+      "txt": "over 41m",
+      "hl": true
+     }
+    ],
+    "ats": [
+     0.188,
+     0.265,
+     0.342,
+     0.447
+    ],
+    "foot": "Source: RIM annual reports (40-F), fiscal 2009 and 2011"
+   },
+   "yr": 2010,
+   "text": "You can see it in the numbers. In the year to March 2007, RIM had about 8 million subscriber accounts. Two years later, about 25 million. A year after that, over 41 million, and for the first time, more of them used RIM's internet email service, aimed at consumers, than company servers. BlackBerry had moved from the boardroom into everyone's pocket.",
+   "visual": "subscriber accounts FY2007 8M, FY2008 14M, FY2009 25M, FY2010 41M (data.csv subscribers)"
+  },
+  {
+   "id": "b12",
+   "chapter": "2 · The iPhone moment",
+   "scene": "timeline",
+   "p": {
+    "events": [
+     {
+      "d": "9 JAN 2007",
+      "t": "Apple announces the iPhone",
+      "s": "touchscreen · no keyboard · full web browser",
+      "icon": "slab"
+     },
+     {
+      "d": "JUNE 2007",
+      "t": "On sale in the US",
+      "s": "from $499 · one carrier: Cingular"
+     }
+    ],
+    "hl": [
+     0
+    ],
+    "ats": [
+     0.02,
+     0.542
+    ],
+    "src": "Apple press releases, January 2007"
+   },
+   "yr": 2007,
+   "text": "On the 9th of January 2007, Apple announced the iPhone. A large touchscreen, no keyboard, a full web browser. It went on sale in the United States that June, from 499 dollars, with one carrier, Cingular.",
+   "visual": "9 Jan 2007 marker; abstract slab-phone outline, no Apple logo or product photo",
+   "say": "On the 9th of January 2007, Apple announced the iPhone. A large touchscreen, no keyboard, a full web browser. It went on sale in the United States that June, from 499 dollars, with one carrier, Sing-yuh-ler.",
+   "sfx": [
+    [
+     0.05,
+     "hit"
+    ]
+   ]
+  },
+  {
+   "id": "b13",
+   "chapter": "2 · The iPhone moment",
+   "scene": "timeline",
+   "p": {
+    "events": [
+     {
+      "d": "JUNE 2007",
+      "t": "No Microsoft Exchange support",
+      "s": "the first iPhone"
+     },
+     {
+      "d": "MARCH 2008",
+      "t": "Exchange ActiveSync coming",
+      "s": "push email, contacts, calendars"
+     },
+     {
+      "d": "JULY 2008",
+      "t": "The App Store opens",
+      "s": "more than 500 apps"
+     }
+    ],
+    "hl": [
+     1
+    ],
+    "ats": [
+     0.145,
+     0.438,
+     0.812
+    ],
+    "src": "Apple press releases, March and July 2008"
+   },
+   "yr": 2008,
+   "text": "At first it was not a threat to RIM's best customers. The first iPhone did not support Microsoft Exchange, the email system most companies ran. That changed fast. In March 2008, Apple said its 2.0 software would support Exchange ActiveSync, for secure, over-the-air push email, contacts and calendars. And in July 2008, Apple opened the App Store, with more than 500 apps.",
+   "visual": "Mar 2008 'Exchange push email', Jul 2008 'App Store: 500+ apps' (Apple newsroom)",
+   "say": "At first it was not a threat to RIM's best customers. The first iPhone did not support Microsoft Exchange, the email system most companies ran. That changed fast. In March 2008, Apple said its two point oh software would support Exchange Active Sync, for secure, over-the-air push email, contacts and calendars. And in July 2008, Apple opened the App Store, with more than 500 apps."
+  },
+  {
+   "id": "b14",
+   "chapter": "2 · The iPhone moment",
+   "scene": "moat",
+   "p": {},
+   "yr": 2008,
+   "text": "That was the real danger. Push email had been RIM's moat. Now it was a feature another phone could have. And the App Store changed what people expected a phone to be: not a messaging device, but a small computer full of other people's software.",
+   "visual": "castle labelled 'push email'; water drains as a bridge labelled 'Exchange ActiveSync' drops"
+  },
+  {
+   "id": "b15",
+   "chapter": "2 · The iPhone moment",
+   "scene": "revenue",
+   "p": {
+    "from": 0,
+    "to": 5,
+    "devices": true,
+    "iphone": true,
+    "iphoneAt": 0.256,
+    "gat": 0.311,
+    "gspan": 0.36800000000000005,
+    "labels": [
+     "FY2007",
+     "FY2008",
+     "FY2009",
+     "FY2010",
+     "FY2011"
+    ],
+    "devlab": [
+     "FY2011"
+    ],
+    "peak": "BEST YEAR: FY2011",
+    "peakAt": 0.878
+   },
+   "yr": 2011,
+   "text": "Now watch what RIM's own numbers did next. This is its revenue, year by year, from its annual reports. Here is the iPhone. And RIM kept growing. 3 billion dollars in the year to March 2007. 6 billion the next year. 11 billion. 15 billion. And in the year to February 2011, 19.9 billion dollars, with 3.4 billion in profit and 52.3 million devices sold. RIM's best year came four years after the iPhone.",
+   "visual": "`MAIN CHART part 1` (chart-revenue.svg, from data.csv): revenue bars FY2006-FY2011 build left to right; dashed vertical line 'iPhone announced, Jan 2007'; devices-sold line on the right axis; peak bar labelled $19.9bn",
+   "say": "Now watch what RIM's own numbers did next. This is its revenue, year by year, from its annual reports. Here is the iPhone. And RIM kept growing. 3 billion dollars in the year to March 2007. 6 billion the next year. 11 billion. 15 billion. And in the year to February 2011, nineteen point nine billion dollars, with three point four billion in profit and fifty-two point three million devices sold. RIM's best year came four years after the iPhone.",
+   "sfx": [
+    [
+     0.86,
+     "hit"
+    ]
+   ]
+  },
+  {
+   "id": "b16",
+   "chapter": "2 · The iPhone moment",
+   "scene": "share",
+   "p": {
+    "upto": 3,
+    "android": true,
+    "androidAt": 0.862,
+    "hl": [
+     "CY2009"
+    ],
+    "ats": [
+     0.245,
+     0.556,
+     0.772
+    ],
+    "note": "2010: 47.5m sold, share down",
+    "noteAt": 0.626
+   },
+   "yr": 2010,
+   "text": "That is the trap. Inside the company, almost every number was going up. But the market was growing even faster. Here is BlackBerry's share of all smartphones sold worldwide, from the research firm Gartner, as reported in the press. 16.6 percent in 2008. 19.9 percent in 2009, its peak. In 2010, BlackBerry sold 47.5 million smartphones, more than ever, and its share still fell, to 16 percent. Android went from 3.9 percent to 22.7 percent in the same year.",
+   "visual": "`CHART 2` (data.csv smartphone_share): BlackBerry share line 2008-2010 in brand-neutral colour; Android share as a second, thinner line for 2009-2010 only",
+   "say": "That is the trap. Inside the company, almost every number was going up. But the market was growing even faster. Here is BlackBerry's share of all smartphones sold worldwide, from the research firm Gartner, as reported in the press. sixteen point six percent in 2008. nineteen point nine percent in 2009, its peak. In 2010, BlackBerry sold forty-seven point five million smartphones, more than ever, and its share still fell, to 16 percent. Android went from three point nine percent to twenty-two point seven percent in the same year."
+  },
+  {
+   "id": "b17",
+   "chapter": "2 · The iPhone moment",
+   "scene": "storm",
+   "p": {
+    "quote": {
+     "lines": [
+      "This is the fastest-selling",
+      "device we've had to date."
+     ],
+     "who": "Verizon spokeswoman",
+     "where": "quoted by NBC News, December 2008",
+     "px": 44
+    }
+   },
+   "yr": 2008,
+   "text": "RIM's answer to the touchscreen arrived in November 2008: the BlackBerry Storm, sold in the US by Verizon. It was RIM's first touchscreen BlackBerry. The whole screen clicked like a button when you pressed it, to keep some of the feel of a key. Verizon called it the fastest-selling device it had had. But reviewers reported software bugs, lag and an awkward on-screen keyboard. Typing, the thing BlackBerry was famous for, drew the most complaints.",
+   "visual": "generic touchscreen slab with a press-and-click animation (no product likeness); quote card 'This is the fastest-selling device we've had to date' - Verizon spokeswoman, NBC News, Dec 2008"
+  },
+  {
+   "id": "b18",
+   "chapter": "2 · The iPhone moment",
+   "scene": "timeline",
+   "p": {
+    "y": 450,
+    "events": [
+     {
+      "d": "JULY 2008",
+      "t": "Apple's App Store"
+     },
+     {
+      "d": "1 APRIL 2009",
+      "t": "RIM's App World",
+      "s": "about nine months later"
+     }
+    ],
+    "hl": [
+     1
+    ],
+    "after": [
+     "NEW OPERATING SYSTEM",
+     "start again, on new foundations"
+    ],
+    "ats": [
+     0.03,
+     0.15
+    ],
+    "spread": 0.45
+   },
+   "yr": 2009,
+   "text": "In April 2009, RIM opened its own app store, App World, about nine months after Apple's. But RIM's deeper answer was to start again, with a completely new operating system. For that, it needed new foundations.",
+   "visual": "Jul 2008 App Store vs Apr 2009 App World; then a blueprint graphic 'new OS'"
+  },
+  {
+   "id": "b19",
+   "chapter": "3 · The tablet and the outage",
+   "scene": "qnx",
+   "p": {},
+   "yr": 2010,
+   "text": "In April 2010, RIM agreed to buy QNX Software Systems from the audio company Harman. QNX made a small, highly reliable operating system for embedded machines, and it was already strong in cars. RIM would build its future on it: first a tablet, then a new generation of phones.",
+   "visual": "a small 'QNX' block labelled 'embedded OS' slides under two outlines: tablet, phone (press release 9 Apr 2010)",
+   "say": "In April 2010, RIM agreed to buy Q N X Software Systems from the audio company Harman. Q N X made a small, highly reliable operating system for embedded machines, and it was already strong in cars. RIM would build its future on it: first a tablet, then a new generation of phones."
+  },
+  {
+   "id": "b20",
+   "chapter": "3 · The tablet and the outage",
+   "scene": "bridge",
+   "p": {},
+   "yr": 2011,
+   "text": "The tablet was the PlayBook, launched in April 2011. At launch it had no built-in email app. To read work email on it, you paired it with a BlackBerry phone through a feature called Bridge. Built-in email, calendar and contacts came later, in the 2.0 software update.",
+   "visual": "tablet + phone linked by a 'Bridge' cable icon; email icon only appears when the phone is connected",
+   "say": "The tablet was the PlayBook, launched in April 2011. At launch it had no built-in email app. To read work email on it, you paired it with a BlackBerry phone through a feature called Bridge. Built-in email, calendar and contacts came later, in the two point oh software update."
+  },
+  {
+   "id": "b21",
+   "chapter": "3 · The tablet and the outage",
+   "scene": "figures",
+   "p": {
+    "head": "December 2011 · the tablet",
+    "items": [
+     {
+      "big": "$485 million",
+      "small": "provision on tablet inventory",
+      "hot": true
+     },
+     {
+      "big": "~150,000",
+      "small": "tablets sold into stores that quarter"
+     }
+    ],
+    "ats": [
+     0.05,
+     0.61
+    ],
+    "src": "RIM press release, 2 December 2011"
+   },
+   "yr": 2011,
+   "text": "In December 2011, RIM announced a provision of about 485 million dollars on its PlayBook inventory. In that quarter it had sold about 150,000 PlayBooks into stores.",
+   "visual": "'$485 million provision' / '~150,000 tablets sold into the channel in the quarter' (RIM press release, 2 Dec 2011)",
+   "say": "In December 2011, RIM announced a provision of about 485 million dollars on its PlayBook inventory. In that quarter it had sold about one hundred and fifty thousand PlayBooks into stores."
+  },
+  {
+   "id": "b22",
+   "chapter": "3 · The tablet and the outage",
+   "scene": "network",
+   "p": {
+    "mode": "outage"
+   },
+   "yr": 2011,
+   "text": "Meanwhile, the design that made BlackBerry great turned into a weak point. In October 2011, a core switch failed inside RIM's own infrastructure, and the backup did not work as tested. Data backed up. Users in Europe, the Middle East, Africa, India and Latin America had their service disrupted, and the problems spread to North America.",
+   "visual": "the NOC diagram from chapter 1 returns; the hub turns red; message queues pile up; continents dim one by one",
+   "sfx": [
+    [
+     0.15,
+     "hit"
+    ]
+   ]
+  },
+  {
+   "id": "b23",
+   "chapter": "3 · The tablet and the outage",
+   "scene": "quote",
+   "p": {
+    "head": "17 October 2011",
+    "quote": {
+     "lines": [
+      "Our global network supports the",
+      "communications needs of more",
+      "than 70 million customers."
+     ],
+     "who": "Mike Lazaridis, co-chief executive",
+     "where": "RIM press release, 17 October 2011"
+    },
+    "foot": [
+     "free apps offered as an apology",
+     "later: a charge of about $50 million against revenue"
+    ],
+    "footAt": 0.6
+   },
+   "yr": 2011,
+   "text": "Because every message passed through RIM's centre, one failure could reach customers on several continents at once. Lazaridis said the network served more than 70 million customers. RIM offered free apps as an apology, and later counted a charge of about 50 million dollars against revenue for the outage.",
+   "visual": "'Our global network supports the communications needs of more than 70 million customers' - Mike Lazaridis, RIM press release, 17 Oct 2011; text-only card, no portrait",
+   "say": "Because every message passed through RIM's centre, one failure could reach customers on several continents at once. Lazza-reedis said the network served more than 70 million customers. RIM offered free apps as an apology, and later counted a charge of about 50 million dollars against revenue for the outage."
+  },
+  {
+   "id": "b24",
+   "chapter": "4 · BlackBerry 10, too late",
+   "scene": "quote",
+   "p": {
+    "head": "22 January 2012 · Thorsten Heins named chief executive",
+    "quote": {
+     "lines": [
+      "There comes a time in the growth of",
+      "every successful company when the",
+      "founders recognize the need to pass",
+      "the baton to new leadership."
+     ],
+     "who": "Mike Lazaridis",
+     "where": "RIM press release, 22 January 2012",
+     "px": 46
+    }
+   },
+   "yr": 2012,
+   "text": "On the 22nd of January 2012, the two co-chief executives handed over. The board named Thorsten Heins, an executive who had come to RIM from Siemens, as chief executive. Lazaridis said: there comes a time in the growth of every successful company when the founders recognize the need to pass the baton to new leadership.",
+   "visual": "text-only quote card with attribution 'Mike Lazaridis, RIM press release, 22 Jan 2012'",
+   "say": "On the 22nd of January 2012, the two co-chief executives handed over. The board named Torsten Hines, an executive who had come to RIM from Siemens, as chief executive. Lazza-reedis said: there comes a time in the growth of every successful company when the founders recognize the need to pass the baton to new leadership."
+  },
+  {
+   "id": "b25",
+   "chapter": "4 · BlackBerry 10, too late",
+   "scene": "timeline",
+   "p": {
+    "events": [
+     {
+      "d": "JANUARY 2012",
+      "t": "BlackBerry 10 expected",
+      "s": "“to ship later this year”"
+     },
+     {
+      "d": "30 JANUARY 2013",
+      "t": "BlackBerry 10 launches",
+      "s": "Z10 (touch) · Q10 (keyboard)",
+      "icon": "slab"
+     },
+     {
+      "d": "30 JANUARY 2013",
+      "t": "RIM becomes BlackBerry",
+      "s": "the company's new name"
+     }
+    ],
+    "hl": [
+     1
+    ],
+    "ats": [
+     0.02,
+     0.333,
+     0.772
+    ],
+    "span": [
+     0,
+     1,
+     "it slipped into 2013"
+    ],
+    "spanY": 330,
+    "src": "RIM / BlackBerry press releases, January 2012 and January 2013"
+   },
+   "yr": 2013,
+   "text": "In the same statement, he said BlackBerry 10 was expected to ship later that year. It did not. BlackBerry 10 launched on the 30th of January 2013, with two phones: the Z10, all touchscreen, and the Q10, with a keyboard. The same day, Research In Motion began calling itself BlackBerry.",
+   "visual": "'expected later this year' (Jan 2012) -> arrow stretches -> 'launched 30 Jan 2013'; generic phone outlines",
+   "say": "In the same statement, he said BlackBerry 10 was expected to ship later that year. It did not. BlackBerry 10 launched on the 30th of January 2013, with two phones: the Zee ten, all touchscreen, and the Q ten, with a keyboard. The same day, Research In Motion began calling itself BlackBerry."
+  },
+  {
+   "id": "b26",
+   "chapter": "4 · BlackBerry 10, too late",
+   "scene": "apps",
+   "p": {
+    "head": "Apps on offer, by each company's own count",
+    "loop": true,
+    "rows": [
+     {
+      "label": "BlackBerry 10 · March 2013",
+      "v": 100000,
+      "txt": "100,000+"
+     },
+     {
+      "label": "Apple App Store · January 2013",
+      "v": 775000,
+      "txt": "775,000+",
+      "hl": true
+     }
+    ],
+    "foot": "BlackBerry annual information form, 28 March 2013; Apple press release, 7 January 2013"
+   },
+   "yr": 2013,
+   "text": "The new system was modern, built on QNX. But the gap had become enormous. By March 2013, BlackBerry said its store offered more than 100,000 BlackBerry 10 apps. In January, Apple had said its App Store offered more than 775,000. Developers build for the phones people already own, and people buy the phones that have the apps. That loop is very hard to break from behind.",
+   "visual": "100,000+ vs 775,000+ apps (company statements); then a circular arrow 'users -> apps -> users'",
+   "say": "The new system was modern, built on Q N X. But the gap had become enormous. By March 2013, BlackBerry said its store offered more than one hundred thousand BlackBerry 10 apps. In January, Apple had said its App Store offered more than seven hundred and seventy-five thousand. Developers build for the phones people already own, and people buy the phones that have the apps. That loop is very hard to break from behind."
+  },
+  {
+   "id": "b27",
+   "chapter": "4 · BlackBerry 10, too late",
+   "scene": "flow",
+   "p": {
+    "mode": "thin"
+   },
+   "yr": 2013,
+   "text": "There was a money problem too. That monthly service fee only made sense while BlackBerry's network was special. RIM's own annual report said that many competitors did not charge such a fee, that it faced growing pressure to cut it, and that it expected the fee revenue to keep falling as customers moved to BlackBerry 10.",
+   "visual": "the three money streams from chapter 1; the 'monthly service fee' stream thins out"
+  },
+  {
+   "id": "b28",
+   "chapter": "4 · BlackBerry 10, too late",
+   "scene": "byod",
+   "p": {},
+   "yr": 2013,
+   "text": "And the customers who had stayed loyal changed their rules. BlackBerry's filings describe IT departments that once required employees to carry a BlackBerry now letting them choose their own phones. The industry called it bring your own device.",
+   "visual": "an office desk; a row of identical keyboard phones becomes a mixed row of different slab phones"
+  },
+  {
+   "id": "b29",
+   "chapter": "4 · BlackBerry 10, too late",
+   "scene": "figures",
+   "p": {
+    "head": "September 2013 warning, and the year to March 2014",
+    "lh": 140,
+    "items": [
+     {
+      "big": "up to $995m",
+      "small": "quarterly operating loss (warning)",
+      "px": 76
+     },
+     {
+      "big": "$930–960m",
+      "small": "inventory charge in that quarter",
+      "px": 76
+     },
+     {
+      "big": "~4,500",
+      "small": "job cuts",
+      "px": 76
+     },
+     {
+      "big": "~$2.4bn",
+      "small": "BlackBerry 10 inventory and supply charges, year to Mar 2014",
+      "px": 76
+     },
+     {
+      "big": "$5.9bn",
+      "small": "net loss, year to March 2014",
+      "px": 76,
+      "hot": true
+     }
+    ],
+    "ats": [
+     0.145,
+     0.344,
+     0.566,
+     0.609,
+     0.814
+    ],
+    "src": "BlackBerry press release (6-K), 20 September 2013; annual report (40-F), fiscal 2014"
+   },
+   "yr": 2013,
+   "text": "Sales did not recover. In September 2013, BlackBerry warned of a quarterly operating loss of up to about 995 million dollars, including an inventory charge of roughly 930 to 960 million, and announced about 4,500 job cuts. For the year to March 2014, charges for BlackBerry 10 inventory and supply came to about 2.4 billion dollars, and the company lost 5.9 billion.",
+   "visual": "three lines: '$930-960m inventory charge (Q2)', '~4,500 jobs', 'FY2014 net loss $5.9bn' (BlackBerry 6-K 20 Sep 2013; 40-F FY2014)",
+   "say": "Sales did not recover. In September 2013, BlackBerry warned of a quarterly operating loss of up to about 995 million dollars, including an inventory charge of roughly 930 to 960 million, and announced about four thousand, five hundred job cuts. For the year to March 2014, charges for BlackBerry 10 inventory and supply came to about two point four billion dollars, and the company lost five point nine billion."
+  },
+  {
+   "id": "b30",
+   "chapter": "4 · BlackBerry 10, too late",
+   "scene": "combo",
+   "p": {
+    "rev": {
+     "from": 0,
+     "to": 8,
+     "devices": true,
+     "grow": 6,
+     "gat": 0.299,
+     "gspan": 0.08400000000000002,
+     "labels": [
+      "FY2011",
+      "FY2012",
+      "FY2013",
+      "FY2014"
+     ],
+     "devlab": [
+      "FY2014"
+     ]
+    },
+    "share": {
+     "upto": 6,
+     "from": 3
+    },
+    "shareAt": 0.723
+   },
+   "yr": 2014,
+   "text": "Back to the chart. Revenue: 19.9 billion dollars in the year to February 2011. Then 18.4. 11.1. 6.8. Devices: 52 million, 49 million, 28 million, and in the year to March 2014, 13.7 million. Market share, by Gartner's count: 5 percent in 2012. 1.9 percent in 2013.",
+   "visual": "bars continue FY2012-FY2014 and fall; devices line drops (FY2014 point hollow, footnote 'recognised, not shipped'); inset share line adds Q4 2011 8.8% (marked 'quarter'), 2012 5.0%, 2013 1.9%",
+   "say": "Back to the chart. Revenue: nineteen point nine billion dollars in the year to February 2011. Then eighteen point four. eleven point one. six point eight. Devices: 52 million, 49 million, 28 million, and in the year to March 2014, thirteen point seven million. Market share, by Gartner's count: 5 percent in 2012. one point nine percent in 2013."
+  },
+  {
+   "id": "b31",
+   "chapter": "5 · The sale that did not happen, and the exit",
+   "scene": "valuebars",
+   "p": {
+    "bars": [
+     {
+      "k": "peak",
+      "label": "June 2008",
+      "sub": "our estimate"
+     },
+     {
+      "k": "co-CEOs step down",
+      "label": "January 2012",
+      "sub": "our estimate"
+     },
+     {
+      "k": "Fairfax offer",
+      "label": "September 2013",
+      "sub": "offer: $9 a share"
+     }
+    ],
+    "ats": [
+     0.02,
+     0.1,
+     0.619
+    ],
+    "foot": "June 2008 and January 2012: our estimates (close x shares). September 2013: offer value stated by BlackBerry."
+   },
+   "yr": 2013,
+   "text": "In August 2013, the board set up a committee to look at selling the company. In September, it signed a letter of intent with a group led by Fairfax Financial, which already owned about 10 percent. The offer: 9 dollars a share, about 4.7 billion dollars. Five years earlier, the company had been worth about 83 billion.",
+   "visual": "market value bars: 83.4 (Jun 2008), 8.9 (Jan 2012), 4.7 (Sep 2013 offer)",
+   "say": "In August 2013, the board set up a committee to look at selling the company. In September, it signed a letter of intent with a group led by Fairfax Financial, which already owned about 10 percent. The offer: 9 dollars a share, about four point seven billion dollars. Five years earlier, the company had been worth about 83 billion."
+  },
+  {
+   "id": "b32",
+   "chapter": "5 · The sale that did not happen, and the exit",
+   "scene": "timeline",
+   "p": {
+    "events": [
+     {
+      "d": "23 SEP 2013",
+      "t": "Letter of intent: Fairfax-led group",
+      "s": "$9 a share"
+     },
+     {
+      "d": "4 NOV 2013",
+      "t": "No takeover: $1bn investment instead",
+      "s": "convertible debt"
+     },
+     {
+      "d": "4 NOV 2013",
+      "t": "Heins steps down",
+      "s": "John Chen: executive chair, interim CEO"
+     }
+    ],
+    "hl": [
+     1
+    ],
+    "ats": [
+     0.02,
+     0.106,
+     0.579
+    ],
+    "src": "BlackBerry press releases, 23 September and 4 November 2013"
+   },
+   "yr": 2013,
+   "text": "The takeover did not go ahead. On the 4th of November 2013, BlackBerry took a 1 billion dollar investment from Fairfax and other investors instead, as convertible debt. Heins stepped down. John Chen, who had run the software company Sybase, became executive chair and interim chief executive.",
+   "visual": "23 Sep 2013 letter of intent -> 4 Nov 2013 $1bn debentures; text cards for the leadership change (no portraits)",
+   "say": "The takeover did not go ahead. On the 4th of November 2013, BlackBerry took a 1 billion dollar investment from Fairfax and other investors instead, as convertible debt. Hines stepped down. John Chen, who had run the software company Sigh-base, became executive chair and interim chief executive."
+  },
+  {
+   "id": "b33",
+   "chapter": "5 · The sale that did not happen, and the exit",
+   "scene": "quote",
+   "p": {
+    "head": "28 September 2016",
+    "quote": {
+     "lines": [
+      "The company plans to end all internal",
+      "hardware development and will",
+      "outsource that function to partners."
+     ],
+     "who": "John Chen",
+     "where": "BlackBerry press release, 28 September 2016",
+     "px": 46
+    },
+    "foot": [
+     "before that: BBM released for Android and iPhone"
+    ],
+    "footAt": 0.05
+   },
+   "yr": 2016,
+   "text": "Chen's plan was to stop fighting where BlackBerry was losing. BBM was released for Android and iPhone. And in September 2016, in BlackBerry's quarterly results, he said: the company plans to end all internal hardware development and will outsource that function to partners.",
+   "visual": "text-only card, 'John Chen, BlackBerry press release, 28 Sep 2016'",
+   "say": "Chen's plan was to stop fighting where BlackBerry was losing. B B M was released for Android and iPhone. And in September 2016, in BlackBerry's quarterly results, he said: the company plans to end all internal hardware development and will outsource that function to partners."
+  },
+  {
+   "id": "b34",
+   "chapter": "5 · The sale that did not happen, and the exit",
+   "scene": "timeline",
+   "p": {
+    "events": [
+     {
+      "d": "DECEMBER 2016",
+      "t": "TCL licence: Android phones",
+      "s": "BlackBerry-branded, built by TCL"
+     },
+     {
+      "d": "AUGUST 2020",
+      "t": "The TCL licence ends"
+     },
+     {
+      "d": "4 JANUARY 2022",
+      "t": "Old services switched off",
+      "s": "BlackBerry 7 and 10 devices",
+      "icon": "grey"
+     }
+    ],
+    "hl": [
+     2
+    ],
+    "ats": [
+     0.02,
+     0.314,
+     0.426
+    ],
+    "src": "BlackBerry and TCL announcements; BlackBerry support notice"
+   },
+   "yr": 2022,
+   "text": "From December 2016, the electronics maker TCL built BlackBerry-branded phones running Android, under licence. That arrangement ended in August 2020. And on the 4th of January 2022, BlackBerry switched off the services behind its old phones. Devices on BlackBerry 7 and BlackBerry 10 could no longer be relied on, even for calls and emergency numbers.",
+   "visual": "Dec 2016 licence -> Aug 2020 licence ends -> 4 Jan 2022 legacy services end; phone outline greys out",
+   "say": "From December 2016, the electronics maker T C L built BlackBerry-branded phones running Android, under licence. That arrangement ended in August 2020. And on the 4th of January 2022, BlackBerry switched off the services behind its old phones. Devices on BlackBerry 7 and BlackBerry 10 could no longer be relied on, even for calls and emergency numbers."
+  },
+  {
+   "id": "b35",
+   "chapter": "5 · The sale that did not happen, and the exit",
+   "scene": "sliver",
+   "p": {},
+   "yr": 2016,
+   "text": "By then, the phone business had already gone. In the last three months of 2016, Gartner counted 432 million smartphones sold worldwide. 207,900 ran BlackBerry's own system. That is about 0.05 percent. Gartner's table rounds it to zero.",
+   "visual": "share line drops to Q4 2016 at 0.05%; a 432,000,000-dot grid with 207,900 highlighted would be a single sliver",
+   "say": "By then, the phone business had already gone. In the last three months of 2016, Gartner counted 432 million smartphones sold worldwide. two hundred and seven thousand, nine hundred ran BlackBerry's own system. That is about zero point zero five percent. Gartner's table rounds it to zero."
+  },
+  {
+   "id": "b36",
+   "chapter": "6 · What BlackBerry is now",
+   "scene": "car",
+   "p": {},
+   "yr": 2026,
+   "text": "So what is left? Remember QNX, bought in 2010 to build a tablet. It is now the centre of the company. BlackBerry says QNX technology is in more than 275 million vehicles, and that it works with more than 45 carmakers, including the top 10. It sells software for digital cockpits and driver-assistance systems, where the software must not fail, and much of that is paid as royalties, as the cars are built.",
+   "visual": "car cutaway: dashboard screen and driver-assistance sensors highlighted; counter to 275,000,000+ (BlackBerry 10-K FY2026)",
+   "say": "So what is left? Remember Q N X, bought in 2010 to build a tablet. It is now the centre of the company. BlackBerry says Q N X technology is in more than 275 million vehicles, and that it works with more than 45 carmakers, including the top 10. It sells software for digital cockpits and driver-assistance systems, where the software must not fail, and much of that is paid as royalties, as the cars are built."
+  },
+  {
+   "id": "b37",
+   "chapter": "6 · What BlackBerry is now",
+   "scene": "bullets",
+   "p": {
+    "head": "Secure communications",
+    "numbered": false,
+    "items": [
+     "SecuSUITE: encrypted calls and messages",
+     "UEM: managing employees' devices",
+     "AtHoc: emergency alert systems"
+    ]
+   },
+   "yr": 2026,
+   "text": "The other half is secure communications for governments and companies: encrypted calls and messages, management of employees' devices, and emergency alert systems. In other words, the old BlackBerry reputation for security, without the phone.",
+   "visual": "SecuSUITE (secure voice and messaging), UEM (device management), AtHoc (crisis alerts) - plain text, no logos"
+  },
+  {
+   "id": "b38",
+   "chapter": "6 · What BlackBerry is now",
+   "scene": "figures",
+   "p": {
+    "head": "The Cylance detour",
+    "items": [
+     {
+      "big": "$1.4bn",
+      "small": "cash deal for Cylance, completed February 2019"
+     },
+     {
+      "big": "$160m",
+      "small": "cash before adjustments, plus shares: sold February 2025",
+      "hot": true
+     },
+     {
+      "big": "2023",
+      "small": "non-core patent portfolio sold"
+     }
+    ],
+    "ats": [
+     0.081,
+     0.505,
+     0.847
+    ],
+    "src": "BlackBerry press release (6-K), 16 November 2018; annual report (10-K), fiscal 2026"
+   },
+   "yr": 2025,
+   "text": "There was one more detour. In February 2019, BlackBerry completed a 1.4 billion dollar cash deal for Cylance, a cybersecurity company built on artificial intelligence. In February 2025, it sold Cylance to Arctic Wolf for 160 million dollars in cash before adjustments, plus shares. And in 2023, it sold its non-core patent portfolio.",
+   "visual": "'$1.4bn in (2019)' -> '$160m cash + shares out (2025)' (BlackBerry 6-K 16 Nov 2018; 10-K FY2026)",
+   "say": "There was one more detour. In February 2019, BlackBerry completed a one point four billion dollar cash deal for Sigh-lance, a cybersecurity company built on artificial intelligence. In February 2025, it sold Sigh-lance to Arctic Wolf for 160 million dollars in cash before adjustments, plus shares. And in 2023, it sold its non-core patent portfolio."
+  },
+  {
+   "id": "b39",
+   "chapter": "6 · What BlackBerry is now",
+   "scene": "splitbar",
+   "p": {
+    "head": "Revenue, year to February 2026",
+    "total": "$549.1 million",
+    "total2": "income from continuing operations: $53.2m",
+    "parts": [
+     {
+      "label": "QNX",
+      "v": 268.0,
+      "txt": "$268.0m · up 14%",
+      "col": "red"
+     },
+     {
+      "label": "Secure Communications",
+      "v": 258.9,
+      "txt": "$258.9m",
+      "col": "bone"
+     },
+     {
+      "label": "Licensing",
+      "v": 22.2,
+      "txt": "$22.2m",
+      "col": "steel"
+     }
+    ],
+    "card": [
+     "quarter to August 2026",
+     "$163.3m, +26%",
+     "record revenue from QNX"
+    ],
+    "src": "BlackBerry annual report (10-K), fiscal 2026; results for the quarter to 31 August 2026"
+   },
+   "yr": 2026,
+   "text": "Here is the result. In the year to February 2026, BlackBerry's revenue was 549.1 million dollars. QNX brought in 268 million, up 14 percent. Secure communications, 258.9 million. Patent licensing, 22.2 million. Profit from continuing operations was 53.2 million. And in the quarter to August 2026, revenue was 163.3 million dollars, up 26 percent, with record revenue from QNX.",
+   "visual": "FY2026 revenue split: QNX 268.0 / Secure Communications 258.9 / Licensing 22.2 (10-K FY2026); small card 'Q2 FY2027: $163.3m, +26%'",
+   "say": "Here is the result. In the year to February 2026, BlackBerry's revenue was five hundred and forty-nine point one million dollars. Q N X brought in 268 million, up 14 percent. Secure communications, two hundred and fifty-eight point nine million. Patent licensing, twenty-two point two million. Profit from continuing operations was fifty-three point two million. And in the quarter to August 2026, revenue was one hundred and sixty-three point three million dollars, up 26 percent, with record revenue from Q N X."
+  },
+  {
+   "id": "b40",
+   "chapter": "6 · What BlackBerry is now",
+   "scene": "statement",
+   "p": {
+    "px": 58,
+    "lines": [
+     "QNX and Vector: Alloy Kore, a vehicle operating system",
+     "first customer: Coretura (Daimler Truck and Volvo Group)",
+     "the largest design win in QNX history",
+     "over $100 million added to the royalty backlog"
+    ],
+    "accent": [
+     3
+    ],
+    "sub": "backlog = the company's estimate of future royalties, not money already earned",
+    "src": "BlackBerry filing (8-K), 22 September 2026"
+   },
+   "yr": 2026,
+   "text": "In September 2026, QNX and its partner Vector won the first customer for a vehicle operating system they built together, called Alloy Kore. The customer is Coretura, a venture of Daimler Truck and Volvo Group. BlackBerry called it the largest design win in QNX history, adding over 100 million dollars to its royalty backlog. That backlog is the company's estimate of future royalties, not money already earned.",
+   "visual": "'Largest design win in QNX history: +$100m+ royalty backlog' with the footnote 'backlog = estimate of future royalties' (BlackBerry 8-K 22 Sep 2026)",
+   "say": "In September 2026, Q N X and its partner Vector won the first customer for a vehicle operating system they built together, called Alloy Core. The customer is Core-tura, a venture of Dime-ler Truck and Volvo Group. BlackBerry called it the largest design win in Q N X history, adding over 100 million dollars to its royalty backlog. That backlog is the company's estimate of future royalties, not money already earned."
+  },
+  {
+   "id": "b41",
+   "chapter": "6 · What BlackBerry is now",
+   "scene": "ledger",
+   "p": {
+    "rows": [
+     {
+      "label": "Revenue",
+      "unit": "per fiscal year",
+      "bars": [
+       {
+        "v": 19907.0,
+        "txt": "$19.9bn",
+        "when": "year to Feb 2011"
+       },
+       {
+        "v": 549.1,
+        "txt": "$549m",
+        "when": "year to Feb 2026"
+       }
+      ]
+     },
+     {
+      "label": "People",
+      "unit": "employees",
+      "bars": [
+       {
+        "v": 17500,
+        "txt": "~17,500",
+        "when": "full-time, early 2011"
+       },
+       {
+        "v": 1749,
+        "txt": "1,749",
+        "when": "incl. contract and student workers, Feb 2026"
+       }
+      ]
+     },
+     {
+      "label": "Market value",
+      "unit": "our estimate: close x shares",
+      "bars": [
+       {
+        "v": 83.4,
+        "txt": "$83.4bn",
+        "when": "19 Jun 2008"
+       },
+       {
+        "v": 1.245,
+        "txt": "$1.2bn",
+        "when": "low, 7 Aug 2024"
+       }
+      ]
+     }
+    ],
+    "ats": [
+     0.085,
+     0.391,
+     0.726
+    ],
+    "kgap": 1.4,
+    "src": "Annual reports (40-F, 10-K); market values are our estimates from closing prices (Yahoo Finance) and filed share counts"
+   },
+   "yr": 2026,
+   "text": "Now put it all on one chart. Revenue: 19.9 billion dollars at the peak, 549 million in the latest year, under 3 percent of the peak. People: about 17,500 full-time employees in early 2011, about 1,750 today, counting contract and student workers. Market value: about 83 billion in June 2008, and about 1.2 billion at the low in August 2024.",
+   "visual": "all revenue bars FY2006-FY2026 (FY2025-26 hatched 'continuing operations'); call-outs for headcount and market value; ends on the tiny FY2026 bar split into QNX / Secure Comms / Licensing",
+   "say": "Now put it all on one chart. Revenue: nineteen point nine billion dollars at the peak, 549 million in the latest year, under 3 percent of the peak. People: about seventeen thousand, five hundred full-time employees in early 2011, about one thousand, seven hundred and fifty today, counting contract and student workers. Market value: about 83 billion in June 2008, and about one point two billion at the low in August 2024."
+  },
+  {
+   "id": "mv_now",
+   "chapter": "6 · What BlackBerry is now",
+   "scene": "ledger",
+   "p": {
+    "rows": [
+     {
+      "label": "Revenue",
+      "unit": "per fiscal year",
+      "bars": [
+       {
+        "v": 19907.0,
+        "txt": "$19.9bn",
+        "when": "year to Feb 2011"
+       },
+       {
+        "v": 549.1,
+        "txt": "$549m",
+        "when": "year to Feb 2026"
+       }
+      ]
+     },
+     {
+      "label": "People",
+      "unit": "employees",
+      "bars": [
+       {
+        "v": 17500,
+        "txt": "~17,500",
+        "when": "full-time, early 2011"
+       },
+       {
+        "v": 1749,
+        "txt": "1,749",
+        "when": "incl. contract and student workers, Feb 2026"
+       }
+      ]
+     },
+     {
+      "label": "Market value",
+      "unit": "our estimate: close x shares",
+      "bars": [
+       {
+        "v": 83.4,
+        "txt": "$83.4bn",
+        "when": "19 Jun 2008"
+       },
+       {
+        "v": 1.245,
+        "txt": "$1.2bn",
+        "when": "low, 7 Aug 2024"
+       },
+       {
+        "v": 4.79,
+        "txt": "$4.8bn",
+        "when": "close, 17 Nov 2026",
+        "late": true
+       }
+      ]
+     }
+    ],
+    "instant": true,
+    "lateAt": 0.3,
+    "src": "Latest: close of $8.16 on 17 November 2026 x shares from the latest 10-Q. Our estimate."
+   },
+   "yr": 2026,
+   "text": "And at the close on the 17th of November 2026, the market valued it at about 4.8 billion dollars.",
+   "visual": "market-value call-out 'about $4.8bn, close 17 Nov 2026' (data.csv market_value latest). RE-CHECK ON PUBLISH DAY",
+   "say": "And at the close on the 17th of November 2026, the market valued it at about four point eight billion dollars."
+  },
+  {
+   "id": "b42",
+   "chapter": "Limits",
+   "scene": "bullets",
+   "p": {
+    "head": "Limits",
+    "px": 40,
+    "items": [
+     "Fiscal years end late February or early March",
+     "FY2014 devices were counted differently (recognised)",
+     "Revenue from 2025 on excludes Cylance",
+     "Market share: Gartner, via press reports; Q4 2011 is one quarter",
+     "Market values: our estimates, price x shares",
+     "Decisions and results, not motives"
+    ]
+   },
+   "yr": 2026,
+   "text": "Some limits. RIM's financial year ended in late February or early March, so its years do not line up with calendar years. In the year to March 2014, BlackBerry changed how it counted devices, so that figure is not strictly comparable. Revenue from 2025 on excludes Cylance. Market share comes from Gartner tables as reprinted in the press, and we could not find a full-year figure for 2011, so the chart shows the last quarter of 2011 instead. Market values are our own estimates: share price times shares outstanding. And the reasons behind a decision are harder to prove than the decision itself, so we have stuck to what the company said and did.",
+   "visual": "numbered limits",
+   "say": "Some limits. RIM's financial year ended in late February or early March, so its years do not line up with calendar years. In the year to March 2014, BlackBerry changed how it counted devices, so that figure is not strictly comparable. Revenue from 2025 on excludes Sigh-lance. Market share comes from Gartner tables as reprinted in the press, and we could not find a full-year figure for 2011, so the chart shows the last quarter of 2011 instead. Market values are our own estimates: share price times shares outstanding. And the reasons behind a decision are harder to prove than the decision itself, so we have stuck to what the company said and did."
+  },
+  {
+   "id": "b43",
+   "chapter": "Three things",
+   "scene": "bullets",
+   "p": {
+    "head": "Three things",
+    "items": [
+     "Best year: four years after the iPhone",
+     "Its network: an edge, a single point of failure, and a fee",
+     "QNX, bought for a tablet: about half of revenue"
+    ]
+   },
+   "yr": 2026,
+   "text": "Three things. First, BlackBerry's best year came four years after the iPhone: growing numbers hid a shrinking share. Second, the network that made it secure and efficient was also a single point of failure, and a fee that rivals did not charge. Third, the software it bought to build a tablet, QNX, now brings in about half of everything it sells.",
+   "visual": "numbered summary",
+   "say": "Three things. First, BlackBerry's best year came four years after the iPhone: growing numbers hid a shrinking share. Second, the network that made it secure and efficient was also a single point of failure, and a fee that rivals did not charge. Third, the software it bought to build a tablet, Q N X, now brings in about half of everything it sells."
+  },
+  {
+   "id": "b44",
+   "chapter": "Three things",
+   "scene": "endcard",
+   "p": {},
+   "yr": 2026,
+   "text": "This is Where They Fell: tech companies, told through the decisions they made and the numbers that followed. Every number in this video comes from a filing or a named source, and the data behind each chart is linked below. If you want the next company's story, subscribe to Where They Fell.",
+   "visual": "channel name 'Where They Fell', space for YouTube end-screen elements; one ask: subscribe"
+  }
+ ]
+}

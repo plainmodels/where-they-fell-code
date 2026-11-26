@@ -1,0 +1,17 @@
+[
+ {"id": "short1_best_year", "title": "BlackBerry's best year came four years AFTER the iPhone",
+  "head": ["BlackBerry's best year", "came after the iPhone."], "beats": ["b15", "b16"], "sx": 120, "sw": 1680,
+  "tag": "Full story: how an $83 billion phone giant lost 98%",
+  "thumb": {"big": ["BEST YEAR:", "AFTER THE IPHONE"], "small": "RIM's own revenue, year by year", "beat": "b15", "at": 0.97},
+  "description": "RIM's revenue kept growing after the iPhone was announced in January 2007: $3.0bn, $6.0bn, $11.1bn, $15.0bn, then $19.9bn in the year to February 2011 (annual reports, SEC EDGAR). But its share of smartphones sold worldwide peaked at 19.9% in 2009 and fell to 16.0% in 2010 while Android went from 3.9% to 22.7% (Gartner, via press reports). From the full video on Where They Fell. #blackberry #techhistory #business\n\nSubscribe: https://www.youtube.com/@WhereTheyFell?sub_confirmation=1"},
+ {"id": "short2_zero_share", "title": "207,900 of 432 million: BlackBerry's phones, and where its software went",
+  "head": ["0.05% of phones.", "275 million cars."], "beats": ["b35", "b36"], "sx": 120, "sw": 1680,
+  "tag": "Full story: how an $83 billion phone giant lost 98%",
+  "thumb": {"big": ["0.05% OF PHONES", "275M CARS"], "small": "BlackBerry, Q4 2016 and today", "beat": "b35", "at": 0.97},
+  "description": "In the last three months of 2016, Gartner counted 432 million smartphones sold worldwide; 207,900 ran BlackBerry's own system, about 0.05% (Gartner, via press reports). Today BlackBerry says its QNX technology is in more than 275 million vehicles, with more than 45 carmakers (10-K, fiscal 2026). From the full video on Where They Fell. #blackberry #qnx #techhistory\n\nSubscribe: https://www.youtube.com/@WhereTheyFell?sub_confirmation=1"},
+ {"id": "short3_outage", "title": "One switch failed, and BlackBerry service was disrupted on several continents",
+  "head": ["One switch failed.", "An outage across continents."], "beats": ["b22", "b23"], "sx": 120, "sw": 1680,
+  "tag": "Full story: how an $83 billion phone giant lost 98%",
+  "thumb": {"big": ["ONE SWITCH", "FAILED"], "small": "BlackBerry's outage, October 2011", "beat": "b22", "at": 0.95},
+  "description": "October 2011: a core switch failed inside RIM's own infrastructure and the backup did not work as tested. Because every message passed through RIM's operations centre, service was disrupted in Europe, the Middle East, Africa, India and Latin America, and problems spread to North America. RIM later counted a charge of about $50 million against revenue (RIM press releases and annual report). From the full video on Where They Fell. #blackberry #techhistory\n\nSubscribe: https://www.youtube.com/@WhereTheyFell?sub_confirmation=1"}
+]
